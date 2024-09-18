@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #001620;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -79,16 +79,6 @@ h2 {
     margin: 10px 0 5px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 
 </style>
 
@@ -108,13 +98,11 @@ footer {
     <main>
         <section class="about-us">
             <h2>Quem Somos</h2>
-            <p>Somos uma empresa dedicada a fornecer soluções inovadoras para nossos clientes. Com anos de experiência no mercado, nossa missão é oferecer serviços de alta qualidade que atendam às necessidades de nossos clientes e superem suas expectativas.</p>
-            <p>Nossa equipe é composta por profissionais altamente qualificados e apaixonados pelo que fazem. Trabalhamos juntos para criar um ambiente de trabalho colaborativo e estimulante, onde cada membro da equipe pode crescer e contribuir para o sucesso da empresa.</p>
+            <p>Somos um grupo de estudantes desenvolvendo um sistema inovador para academias. Nosso objetivo é simplificar a gestão para os proprietários de academias e melhorar a experiência dos usuários. O sistema oferece soluções integradas para agendamento, controle de pagamentos, gestão de membros e acompanhamento de treinos, visando otimizar a administração dos estabelecimentos e proporcionar uma experiência mais eficiente e personalizada para os clientes.</p>
         </section>
 
         <section class="mission-values">
             <h2>Missão e Valores</h2>
-            <h3>Missão</h3>
             <p>Fornecer soluções inovadoras e eficazes que ajudem nossos clientes a alcançar seus objetivos e a prosperar no mercado.</p>
             <h3>Valores</h3>
             <ul>
@@ -125,38 +113,37 @@ footer {
             </ul>
         </section>
 
-        <section class="team">
-            <h2>Nossa Equipe</h2>
+        <div class="px-5" align="center">
+        <h2>Nossa Equipe</h2>
+        <section class="team mt-4">
+            
             <div class="team-member">
                 <img src="../images/eu.jpg" alt="Membro da equipe 1">
-                <h3>João Gentili</h3>
-                <p>Desenvolvidor Web</p>
+                <h3>João</h3>
+                <p>Desenvolvedor Web</p>
             </div>
             <div class="team-member">
-                <img src="../images/eu.jpg" alt="Membro da equipe 2">
-                <h3>Mathues Sinatora</h3>
-                <p>Desenvolvidor Desktop</p>
+                <img src="../images/ma.jpeg" alt="Membro da equipe 2">
+                <h3>Mathues</h3>
+                <p>Desenvolvedor Desktop</p>
             </div>
             <div class="team-member">
-                <img src="../images/eu.jpg" alt="Membro da equipe 3">
-                <h3>Andrey Dalosto</h3>
+                <img src="../images/drey.jpeg" alt="Membro da equipe 3">
+                <h3>Andrey</h3>
                 <p>Desenvolvedor Mobile</p>
             </div>
             <div class="team-member">
-                <img src="../images/eu.jpg" alt="Membro da equipe 1">
-                <h3>João Gentili</h3>
-                <p>Desenvolvidor Web</p>
+                <img src="../images/lore.jpeg" alt="Membro da equipe 1">
+                <h3>Lorenzo</h3>
+                <p>Desenvolvedor Mobile</p>
             </div>
             <div class="team-member">
-                <img src="../images/eu.jpg" alt="Membro da equipe 1">
-                <h3>Gabriel Fonseca</h3>
-                <p>Desenvolvidor Web</p>
+                <img src="../images/biel.jpeg" alt="Membro da equipe 1">
+                <h3>Gabriel</h3>
+                <p>Desenvolvedor Web</p>
             </div>
         </section>
+            </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
