@@ -1,0 +1,234 @@
+body {
+    background-color: #021623;
+}
+
+nav {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+header {
+    top: 150px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+section { 
+    position: fixed;
+    top: 275px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0px 50px 0px 50px;
+    user-select: none;
+}
+
+
+h1 {
+    color: #fff;
+    font-family: monospace;
+    font-size: 3vh;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: #37A9DF;
+    transition: .4s;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Logo {
+    width: 69.8596px;
+    height: 67.0091px;
+    position: relative;
+    padding: 50px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 40px;
+    user-select: none;
+}
+
+.img {
+    border-radius: 50px;
+}
+
+.TextBox {
+    width: 145.06px;
+    height: 45.5px;
+    margin-right: 45px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    position: relative;
+    background: rgb(55, 169, 223);
+    background: linear-gradient(0deg, rgba(55, 169, 223, 1) 35%, rgba(43, 65, 131, 1) 100%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Text {
+    font-family: monospace;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    user-select: none;
+}
+
+
+.Button_grid {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: auto;
+
+}
+
+.btnRegistrar {
+    min-width: 166px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 36px;
+    border-radius: 25px;
+    color: #000000;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .2s;
+    user-select: none;
+}
+
+.btnLogin {
+    min-width: 166px;
+    font-family: monospace;
+    font-size: 36px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    margin-left: 15px;
+    user-select: none;
+}
+
+.buttonRegistrar:hover .buttonLogin:hover{
+    color: #fffafa;
+    background-color: #37A9DF;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.quote-container {
+    background-color: #37A9DF;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 300px;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #37A9DF;
+    border-radius: 15px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-title {
+    font-size: 1.2rem;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
