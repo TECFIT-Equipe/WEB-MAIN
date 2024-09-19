@@ -1,7 +1,6 @@
 <?php require "../parts/nav.php" ?>
 
 <style>
-/* Reset básico para evitar diferenças entre navegadores */
 * {
     margin: 0;
     padding: 0;
