@@ -4,7 +4,7 @@ require "../connection/conn.php";
 
 $data = date('Y-m-d');
 
-$sql = "INSERT INTO tecfit_clientes (
+$sql = "INSERT INTO tecfit_academias (
         cpfcnpj,
         nome_academia,
         nomerazao,

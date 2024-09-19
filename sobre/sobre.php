@@ -31,6 +31,8 @@ main {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin-bottom: 160px;
 }
 
 h2 {
@@ -90,7 +92,10 @@ h2 {
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body id="top">
+    <div class="preloader" data-preloader>
+        <div class="circle"></div>
+    </div>
     <header>
         <h1>Sobre Nós</h1>
     </header>
@@ -150,6 +155,7 @@ h2 {
             </section>
         </div>
     </main>
+    <?php require "../parts/footer.php"; ?>
 </body>
 
 </html>

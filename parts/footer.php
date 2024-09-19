@@ -19,8 +19,7 @@
             <div class="section footer-top">
                 <div class="footer-brand" data-reveal="bottom">
                     <a href="#" class="logo">
-                        <img src="../images/logosemfundo.png" width="70" height="30" loading="lazy" alt="Doclab home">
-                        <br>
+                        <img src="../images/logosemfundo.png" width="70" height="30" loading="lazy" alt="Doclab home"  style="margin-right: 40px;">
                         <img src="../images/logocotilazul.png" width="70" height="30" loading="lazy" alt="Doclab home">
                     </a>
                     <ul class="contact-list has-after">
