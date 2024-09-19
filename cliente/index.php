@@ -22,13 +22,15 @@ require "../connection/conn.php";
                     <label for="">TIPO</label>
                     <div class="row px-4">
                         <div class="col-6 form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onchange="altDiv(1);">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                                onchange="altDiv(1);">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 FÍSICA
                             </label>
                         </div>
                         <div class="col-6 form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onchange="altDiv(2);" checked>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                onchange="altDiv(2);" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 JÚRIDICA
                             </label>
@@ -43,7 +45,8 @@ require "../connection/conn.php";
                             <div class="row">
                                 <div class="col-sm-12 col-md-6">
                                     <label for="" id="cpf_cnpj">CNPJ</label>
-                                    <input type="text" name="cpfcnpj" id="cpfcnpj" onkeyup="consultaCnpj(this.value);" class="form-control" maxlength="14" required>
+                                    <input type="text" name="cpfcnpj" id="cpfcnpj" onblur="consultaCnpj(this.value);"
+                                        class="form-control" required>
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <label for="" id="nome_razaosocial">RAZÃO SOCIAL</label>
@@ -63,11 +66,13 @@ require "../connection/conn.php";
                             <div class="row mt-3">
                                 <div class="col-3">
                                     <label for="">CEP</label>
-                                    <input type="text" name="cep" id="cep" onkeyup="consultaCep(this.value);" class="form-control" maxlength="8" required>
+                                    <input type="text" name="cep" id="cep" onkeyup="consultaCep(this.value);"
+                                        class="form-control" maxlength="8" required>
                                 </div>
                                 <div class="col-3">
                                     <label for="">&nbsp;</label>
-                                    <input type="button" value="CONSULTAR" onclick="consultaCep($('#cep').val());" class="form-control btn btn-primary">
+                                    <input type="button" value="CONSULTAR" onclick="consultaCep($('#cep').val());"
+                                        class="form-control btn btn-primary">
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -91,14 +96,15 @@ require "../connection/conn.php";
                                 </div>
                                 <div class="col-4">
                                     <label for="">ESTADO</label>
-                                    <select name="estado" id="estado" onchange="retCidade(this.value);" class="form-select" required>
+                                    <select name="estado" id="estado" onchange="retCidade(this.value);"
+                                        class="form-select" required>
                                         <option value="-1">--SELECIONE--</option>
                                         <?php
-                                            $sql = "SELECT id , uf FROM tecfit_estado;";
-                                            $res = $dba->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-                                            foreach($res as $r){
-                                                echo "<option value=". $r['id'] .">" . $r['uf'] . "</option>";
-                                            }
+                                        $sql = "SELECT id , uf FROM tecfit_estado;";
+                                        $res = $dba->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+                                        foreach ($res as $r) {
+                                            echo "<option value=" . $r['id'] . ">" . $r['uf'] . "</option>";
+                                        }
                                         ?>
                                     </select>
                                 </div>
@@ -106,14 +112,14 @@ require "../connection/conn.php";
                                     <label for="">CIDADE</label>
                                     <select name="cidade" id="cidade" class="form-select" required>
                                         <option value="-1">--SELECIONE--</option>
-                                    </select>   
+                                    </select>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="pt-5 pb-3" align="center">
-                    <input type="submit" value="Salvar" class="btn btn-lg btn-primary form-control w-25">  
+                    <input type="submit" value="Salvar" class="btn btn-lg btn-primary form-control w-25">
                 </div>
             </div>
         </div>
