@@ -97,10 +97,10 @@ h2 {
         <div class="circle"></div>
     </div>
     <header>
-        <h1>Sobre Nós</h1>
+        <h1 data-reveal="left">Sobre Nós</h1>
     </header>
 
-    <main>
+    <main data-reveal="left">
         <section class="about-us">
             <h2>Quem Somos</h2>
             <p>Somos um grupo de estudantes desenvolvendo um sistema inovador para academias. Nosso objetivo é

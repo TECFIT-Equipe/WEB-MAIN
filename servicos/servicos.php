@@ -70,10 +70,10 @@ header h1 {
     </div>
 
     <header>
-        <h1>Nossos Planos</h1>
+        <h1 data-reveal="left">Nossos Planos</h1>
     </header>
 
-    <div class="container" id="cards">
+    <div class="container" id="cards" data-reveal="left"> 
         <div class="plan">
             <h1>Plano Mensal</h1>
             <p>Descrição do plano Mensal.</p>
