@@ -19,7 +19,8 @@
             <div class="section footer-top">
                 <div class="footer-brand" data-reveal="bottom">
                     <a href="#" class="logo">
-                        <img src="../images/logosemfundo.png" width="70" height="30" loading="lazy" alt="Doclab home"  style="margin-right: 40px;">
+                        <img src="../images/logosemfundo.png" width="70" height="30" loading="lazy" alt="Doclab home"
+                            style="margin-right: 40px;">
                         <img src="../images/logocotilazul.png" width="70" height="30" loading="lazy" alt="Doclab home">
                     </a>
                     <ul class="contact-list has-after">
@@ -29,8 +30,8 @@
                             </div>
                             <div>
                                 <p>
-                                    Email : <a href="mailto:contact@website.com"
-                                        class="contact-link">contato@tecfit.com</a>
+                                    Email : <a href="mailto:contatotecfit@gmail.com"
+                                        class="contact-link">contatotecfit@gmail.com</a>
                                 </p>
                             </div>
                         </li>
@@ -53,7 +54,7 @@
                     <p class="headline-sm footer-list-title">Sobre Nós</p>
                     <p class="text">
                         Desenvolvido Por Alunos do Cotil<br>
-                        Sob Orientação Do Prof. Danilo
+                        Sob Orientações Do Prof. Danilo
                     </p>
                     <address class="address">
                         <ion-icon name="map-outline"></ion-icon>
@@ -104,32 +105,17 @@
             </div>
             <div class="footer-bottom">
                 <p class="text copyright">
-                    Ⓡ TecFit 2024 | Todos os direitos reservados à TecFit
+                    TecFit 2024 | Todos os direitos reservados à TecFit
                 </p>
                 <ul class="social-list">
                     <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-facebook"></ion-icon>
+                        <a href="https://www.instagram.com/tecfit._/" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link">
+                        <a href="mailto:contatotecfit@gmail.com" class="social-link">
                             <ion-icon name="logo-google"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="social-link">
-                            <ion-icon name="logo-pinterest"></ion-icon>
                         </a>
                     </li>
                 </ul>
