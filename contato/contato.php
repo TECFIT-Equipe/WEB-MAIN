@@ -52,12 +52,7 @@ button:hover::before {
   box-shadow: inset 0 0 0 10em rgb(255, 0, 0);
 }
 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Estilos globais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -84,34 +79,56 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-info, .contact-form {
+.contact-info {
     margin-bottom: 20px;
 }
 
-.contact-info h2, .contact-form h2 {
+.horarios-contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horarios {
+    flex-basis: 40%;
+}
+
+.contato {
+    flex-basis: 40%;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
     margin-bottom: 10px;
-    color: #333;
 }
 
-.contact-info p {
-    margin-bottom: 5px;
-}
-
-.contact-form label {
+.contact-info strong {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.contact-info p {
+    margin: 0;
+}
+.horarios ul, .contato ul {
+    padding-left: 20px;
 }
 
-.contact-form button {
+.email-telefone strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media button {
     display: inline-block;
     padding: 10px 20px;
     background: #333;
@@ -122,9 +139,20 @@ main {
     font-size: 16px;
 }
 
-.contact-form button:hover {
+.social-media button:hover {
     background: #555;
 }
+
+.social-media svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.social-media span {
+    margin-left: 10px;
+}
+
 
 footer {
     text-align: center;
@@ -135,33 +163,58 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-
 </style>
 
 <body>
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Contato</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Entre em Contato Conosco</h1>
-    </header>
-    
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Contato</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Entre em Contato Conosco</h1>
+        </header>
     <main>
         <section class="contact-info">
             <h2>Informações de Contato</h2>
-            <p><strong>Email:</strong> contato@exemplo.com</p>
-            <p><strong>Telefone:</strong> +55 19 1234-5678</p>
-            <p><strong>Endereço:</strong> R. Paschoal Marmo, 1888 - Jardim Nova Italia, Limeira - SP</p>
+            <div class="horarios-contato">
+                <div class="horarios">
+                    <h3>Horários de Atendimento</h3>
+                    <ul>
+                        <li>
+                            <strong>Segunda a sexta:</strong>
+                            <p>Atendimento das 8h às 18h com plantão noturno das 18h às 22h.</p>
+                        </li>
+                        <li>
+                            <strong>Sábado:</strong>
+                            <p>Plantão disponível das 8h às 22h.</p>
+                        </li>
+                        <li>
+                            <strong>Domingos e feriados:</strong>
+                            <p>Plantão das 12h às 20h.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>
+                            <strong>Email:</strong>
+                            <p>tecfit3@gmail.com</p>
+                        </li>
+                        <li>
+                            <strong>Telefone:</strong>
+                            <p>+55 19 1234-5678</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        
       
         <a target="_blank" href="https://www.instagram.com/tecfit._/">
 <button>
