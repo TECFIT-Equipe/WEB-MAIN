@@ -20,9 +20,7 @@
 
     <main>
         <article>
-            <section class="section hero"
-                style="background-image: url('https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/hero-bg.png')"
-                aria-label="home">
+            <section class="section hero" aria-label="home">
                 <div class="container">
                     <div class="hero-content">
                         <p class="hero-subtitle has-before" data-reveal="left">Seja Bem Vindo Ao</p>
@@ -44,16 +42,13 @@
                         <li>
                             <div class="service-card" data-reveal="bottom">
                                 <div class="card-icon">
-                                    <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/icon-1.png"
-                                        width="71" height="71" loading="lazy" alt="icon">
+                                    <img src="images/app.png" width="71" height="71" loading="lazy" alt="icon">
                                 </div>
                                 <h3 class="headline-sm card-title">
-                                    <a href="#">Psychiatry</a>
+                                    <a href="servicos/servicos.php">Aplicativo para alunos e instrutores</a>
                                 </h3>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                </p>
-                                <button class="btn-circle" aria-label="read more about psychiatry">
+                                <button class="btn-circle" aria-label="Saiba Mais"
+                                    onclick="window.location.href='servicos/servicos.php';">
                                     <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                                 </button>
                             </div>
@@ -61,16 +56,13 @@
                         <li>
                             <div class="service-card" data-reveal="bottom">
                                 <div class="card-icon">
-                                    <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/icon-2.png"
-                                        width="71" height="71" loading="lazy" alt="icon">
+                                    <img src="images/people.png" width="71" height="71" loading="lazy" alt="icon">
                                 </div>
                                 <h3 class="headline-sm card-title">
-                                    <a href="#">Gynecology</a>
+                                    <a href="servicos/servicos.php">Controle de matrículas e gestão de alunos.</a>
                                 </h3>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                </p>
-                                <button class="btn-circle" aria-label="read more about Gynecology">
+                                <button class="btn-circle" aria-label="Saiba Mais"
+                                    onclick="window.location.href='servicos/servicos.php';">
                                     <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                                 </button>
                             </div>
@@ -79,16 +71,13 @@
                         <li>
                             <div class="service-card" data-reveal="bottom">
                                 <div class="card-icon">
-                                    <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/icon-3.png"
-                                        width="71" height="71" loading="lazy" alt="icon">
+                                    <img src="images/mensalidade.png" width="71" height="71" loading="lazy" alt="icon">
                                 </div>
                                 <h3 class="headline-sm card-title">
-                                    <a href="#">Pulmonology</a>
+                                    <a href="servicos/servicos.php">Gestão de planos e mensalidades.</a>
                                 </h3>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                </p>
-                                <button class="btn-circle" aria-label="read more about Pulmonology">
+                                <button class="btn-circle" aria-label="Saiba Mais"
+                                    onclick="window.location.href='servicos/servicos.php';">
                                     <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                                 </button>
                             </div>
@@ -96,16 +85,13 @@
                         <li>
                             <div class="service-card" data-reveal="bottom">
                                 <div class="card-icon">
-                                    <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/icon-4.png"
-                                        width="71" height="71" loading="lazy" alt="icon">
+                                    <img src="images/agendamento.png" width="71" height="71" loading="lazy" alt="icon">
                                 </div>
                                 <h3 class="headline-sm card-title">
-                                    <a href="#">Orthopedics</a>
+                                    <a href="servicos/servicos.php">Gerenciamento de horários e agendamentos</a>
                                 </h3>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                                </p>
-                                <button class="btn-circle" aria-label="read more about Orthopedics">
+                                <button class="btn-circle" aria-label="Saiba Mais"
+                                    onclick="window.location.href='servicos/servicos.php';">
                                     <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
                                 </button>
                             </div>
@@ -117,49 +103,45 @@
             <section class="section about" aria-labelledby="about-label">
                 <div class="container">
                     <div class="about-content">
-                        <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">Sobre Nós</p>
-                        <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
+                        <h2 class="headline-md" data-reveal="left">Transforme a gestão da sua academia com facilidade!
+                        </h2>
                         <p class="section-text" data-reveal="left">
-                            Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus
-                            dapibus est.
-                            Aliquam
+                            Aproveite a oportunidade de testar nosso sistema de gestão de academias por<a
+                                href="servicos/servicos.php" style="color:#36ace2;">7 dias
+                                totalmente grátis.</a>
                         </p>
-                        <ul class="tab-list" data-reveal="left">
-                            <li>
-                                <button class="tab-btn active">Vision</button>
-                            </li>
-                            <li>
-                                <button class="tab-btn">Mission</button>
-                            </li>
-                            <li>
-                                <button class="tab-btn">Strategy</button>
-                            </li>
-                        </ul>
-                        <p class="tab-text" data-reveal="left">
-                            Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus
-                            dapibus est.
-                            Aliquam a bibendum mi, sed condimentum
-                        </p>
+                        <h3 class="headline-md" data-reveal="left" style="font-size:3.8rem;">O que você ganha durante o
+                            teste grátis:
+                        </h3>
                         <div class="wrapper">
                             <ul class="about-list">
                                 <li class="about-item" data-reveal="left">
                                     <ion-icon name="checkmark-circle-outline"></ion-icon>
-                                    <span class="span">Sonsectetur adipisicing elit</span>
+                                    <span class="span">Acesso completo a todas as funcionalidades do sistema, incluindo
+                                        gestão de alunos, controle de planos e agendamentos.</span>
                                 </li>
                                 <li class="about-item" data-reveal="left">
                                     <ion-icon name="checkmark-circle-outline"></ion-icon>
-                                    <span class="span">Exercitation ullamco laboris</span>
+                                    <span class="span">Suporte dedicado para auxiliar você a configurar tudo rapidamente
+                                        e tirar o máximo proveito da plataforma.
+                                    </span>
                                 </li>
                                 <li class="about-item" data-reveal="left">
                                     <ion-icon name="checkmark-circle-outline"></ion-icon>
-                                    <span class="span">Eiusmod tempor incididunt</span>
-                                </li>
-                                <li class="about-item" data-reveal="left">
-                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
-                                    <span class="span">Aolore magna aliqua</span>
+                                    <span class="span">Sem compromisso – não pedimos cartão de crédito! Apenas
+                                        registre-se e comece a usar.
+                                    </span>
                                 </li>
                             </ul>
                         </div>
+                        <p class="tab-text" data-reveal="left">
+                            Descubra por si mesmo como nosso sistema pode revolucionar a maneira como você gerencia sua
+                            academia. Clique no botão abaixo e comece agora!
+                        </p>
+                        <button type="button" class="btn has-before title-md" data-reveal="left"
+                            onclick="window.location.href='servicos/servicos.php';">
+                            Começar Teste Grátis por 7 Dias
+                        </button>
                     </div>
                     <figure class="about-banner" data-reveal="right">
                         <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/about-banner.png"
@@ -168,7 +150,7 @@
                 </div>
             </section>
 
-            <section class="section listing" aria-labelledby="listing-label">
+            <!--    <section class="section listing" aria-labelledby="listing-label">
                 <div class="container">
                     <ul class="grid-list">
                         <li>
@@ -250,9 +232,9 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="section blog" aria-labelledby="blog-label">
+            <section class="section blog" aria-labelledby="blog-label" style="padding-top: 100px;">
                 <div class="container">
                     <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
                         Notícias & Artigos

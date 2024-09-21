@@ -45,7 +45,7 @@ header h1 {
 }
 
 .button {
-    background-color: #3498db;
+    background-color: #44db33;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -62,6 +62,11 @@ header h1 {
     background-color: #2980b9;
     transform: scale(1.05);
 }
+
+.vlr {
+    color: #3498db;
+    font-size: 2rem;
+}
 </style>
 
 <body id="top">
@@ -73,48 +78,56 @@ header h1 {
         <h1 data-reveal="left">Nossos Planos</h1>
     </header>
 
-    <div class="container" id="cards" data-reveal="left"> 
+    <div class="container" id="cards" data-reveal="left">
         <div class="plan">
-            <h1>Plano Mensal</h1>
-            <p>Descrição do plano Mensal.</p>
             <ul>
+                <h1 style=" color: #3498db; margin-bottom: 40px;">Plano Mensal</h1>
                 <li>Acesso Pelo Celular</li>
                 <li>Gerenciamento Administrativo</li>
                 <li>Controle de Matrículas</li>
                 <li>Agendamento de Aulas</li>
                 <li>Relatórios Financeiros</li>
                 <li>Check-in Automático</li>
+                <li>12x de</li>
+                <li>
+                    <p><span class="vlr">R$550/mês</span></p>
+                </li>
+                <li><a href="../cliente/index.php" class="button">Teste Grátis</a></li>
             </ul>
-            <p>Preço: 1X de R$500/mês</p>
-            <a href="#" class="button">Clique Aqui</a>
         </div>
         <div class="plan">
-            <h1>Plano Trimensal</h1>
-            <p>Descrição do plano Trimensal.</p>
+
             <ul>
+                <h1 style=" color: #3498db; margin-bottom: 40px;">Plano Trimensal</h1>
                 <li>Acesso Pelo Celular</li>
                 <li>Gerenciamento Administrativo</li>
                 <li>Controle de Matrículas</li>
                 <li>Agendamento de Aulas</li>
                 <li>Relatórios Financeiros</li>
                 <li>Check-in Automático</li>
+                <li>3x de</li>
+                <li>
+                    <p><span class="vlr">R$480/mês</span></p>
+                </li>
+                <li><a href="../cliente/index.php" class="button">Teste Grátis</a></li>
             </ul>
-            <p>Preço: 3X de R$490/mês</p>
-            <a href="#" class="button">Clique Aqui</a>
         </div>
         <div class="plan">
-            <h1>Plano Anual</h1>
-            <p>Descrição do plano Anual.</p>
+
             <ul>
+                <h1 style=" color: #3498db; margin-bottom: 40px;">Plano Anual</h1>
                 <li>Acesso Pelo Celular</li>
                 <li>Gerenciamento Administrativo</li>
                 <li>Controle de Matrículas</li>
                 <li>Agendamento de Aulas</li>
                 <li>Relatórios Financeiros</li>
                 <li>Check-in Automático</li>
+                <li>12x de</li>
+                <li>
+                    <p><span class="vlr">R$400/mês</span></p>
+                </li>
+                <li><a href="../cliente/index.php" class="button">Teste Grátis</a></li>
             </ul>
-            <p>Preço: 12X de R$450/mês</p>
-            <a href="#" class="button">Clique Aqui</a>
         </div>
     </div>
 
