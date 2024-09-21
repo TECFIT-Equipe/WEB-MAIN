@@ -30,7 +30,7 @@
                         </h1>
                     </div>
                     <figure class="hero-banner" data-reveal="right">
-                        <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/hero-banner.png"
+                        <img src="images/hero-banner.png"
                             width="590" height="517" loading="eager" alt="hero banner" class="w-100">
                     </figure>
                 </div>
@@ -144,8 +144,8 @@
                         </button>
                     </div>
                     <figure class="about-banner" data-reveal="right">
-                        <img src="https://raw.githubusercontent.com/farazc60/Project-Images/main/medical/assets/about-banner.png"
-                            width="554" height="678" loading="lazy" alt="about banner" class="w-100">
+                        <img src="images/about-banner.png"
+                            width="554" height="700" loading="lazy" alt="about banner" class="w-100">
                     </figure>
                 </div>
             </section>
