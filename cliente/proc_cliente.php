@@ -4,6 +4,7 @@ require "../connection/conn.php";
 
 $data = date('Y-m-d');
 $cpfcnpj = preg_replace('/[\/.\-]/', '', $_POST['cpfcnpj']);
+$senha = "1234";
 
 $sql = "INSERT INTO tecfit_academias (
         cpfcnpj,
@@ -36,7 +37,39 @@ $sql = "INSERT INTO tecfit_academias (
     );
 ";
 
+$sql2 = "INSERT INTO tecfit_usuarios (
+    nome,
+    login,
+    senha,
+    tipo_usuario,
+    id_plano,
+    id_academia,
+    cpfcnpj,
+    email,
+    celular,
+    ativo,
+    data_cadastro
+) VALUES (
+    '{$_POST['nome_academia']}',
+    '{$_POST['email']}',
+    '{$senha}',
+    '1',
+    '1',
+    '8',
+    '{$cpfcnpj}',
+    '{$_POST['email']}',
+    '{$_POST['celular']}',
+    '1',
+    '{$data}'
+);
+";
+
 if ($dba->query($sql) == TRUE) {
+    echo json_encode(['status' => 'success']);
+} else {
+    echo json_encode(['status' => 'erro']);
+}
+if ($dba->query($sql2) == TRUE) {
     echo json_encode(['status' => 'success']);
 } else {
     echo json_encode(['status' => 'erro']);
