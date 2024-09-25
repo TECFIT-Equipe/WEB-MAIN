@@ -3,6 +3,7 @@
 require "../connection/conn.php";
 
 $data = date('Y-m-d');
+$cpfcnpj = preg_replace('/[\/.\-]/', '', $_POST['cpfcnpj']);
 
 $sql = "INSERT INTO tecfit_academias (
         cpfcnpj,
@@ -19,7 +20,7 @@ $sql = "INSERT INTO tecfit_academias (
         cidade,
         data_registro
     ) VALUES (
-        '{$_POST['cpfcnpj']}',
+        '{$cpfcnpj}',
         '{$_POST['nome_academia']}',
         '{$_POST['nomerazao']}',
         '{$_POST['email']}',
@@ -35,13 +36,11 @@ $sql = "INSERT INTO tecfit_academias (
     );
 ";
 
-if($dba->query($sql) == TRUE){
+if ($dba->query($sql) == TRUE) {
     echo json_encode(['status' => 'success']);
 } else {
     echo json_encode(['status' => 'erro']);
 }
 
-header('Location: ' . $_SERVER['HTTP_REFERER']);
+header("Location: confirmacao.php?email=" . urlencode($_POST['email']));
 exit;
-
-?>
