@@ -1,5 +1,8 @@
 document.write('<script src="../js/jquery-3.3.1.min.js"></script>');
 document.write('<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>');
+document.write('<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>');
+document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>');
+
 
 function retCidade(val, id_cidade = 0, cidade = ''){
     $.ajax({
@@ -52,6 +55,7 @@ function altDiv(param){
 }
 
 function consultaCnpj(val){
+    val = val.replace(/[.\-\/]/g, '');
     if(val.length == 14){
         $.ajax({
             url: '../cliente/ajax_consulta_cnpj.php',
@@ -121,4 +125,17 @@ function retornaUf(uf, cidade){
             retCidade(data.id_uf, data.id_cidade, cidade);
         }
     });
+}
+
+function altPlan(param){
+    if(param == 1){
+        $('#plan_l1').html('(x12) Total Mensal: R$ 399,90');
+        $('#plan_l2').html('(=) Total: R$ 4798,80');
+    } else if(param == 2){
+        $('#plan_l1').html('(x3) Total Mensal: R$ 479,90');
+        $('#plan_l2').html('(=) Total: R$ 1439,70');
+    }else{
+        $('#plan_l1').html('(x1) Total Mensal: R$ 549,90');
+        $('#plan_l2').html('(=) Total: R$ 549,90');
+    }
 }
