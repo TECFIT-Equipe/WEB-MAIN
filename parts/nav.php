@@ -4,19 +4,19 @@ include_once(__DIR__ . '/../links/head.php');
 
 ?>
 <style>
-.site-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    overflow: hidden;
-    z-index: 1000;
-}
+    .site-navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        overflow: hidden;
+        z-index: 1000;
+    }
 
-body {
-    padding-top: 115px;
-}
+    body {
+        padding-top: 115px;
+    }
 </style>
 <header class="site-navbar site-navbar-target" style="background-color: #001620;" role="banner">
 
@@ -39,9 +39,7 @@ body {
                 <div class="site-logo">
                     <a href="../index.php"><img src="../images/logosemfundocletra.png"></a>
                 </div>
-                <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#"
-                        class="site-menu-toggle py-5 js-menu-toggle text-black"><span
-                            class="icon-menu h3 text-black"></span></a></div>
+                <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3 text-black"></span></a></div>
             </div>
             <div class="col-lg-4">
                 <nav class="site-navigation text-left mr-auto " role="navigation">
@@ -49,8 +47,11 @@ body {
                         <li class="<?= ($_SERVER['PHP_SELF'] == "/sobre/sobre.php" ? "active" : "") ?>">
                             <a href="../sobre/sobre.php" class="nav-link">Sobre</a>
                         </li>
-                        <li class="<?= ($_SERVER['PHP_SELF'] == "/contato/contato.php" ? "active" : "") ?>">
+                        <!--li class="<?= ($_SERVER['PHP_SELF'] == "/contato/contato.php" ? "active" : "") ?>">
                             <a href="../contato/contato.php" class="nav-link">Contato</a>
+                        </li-->
+                        <li>
+                            <a href="../download/tecfitsetup.exe" class="nav-link">Download</a>
                         </li>
                     </ul>
                 </nav>
